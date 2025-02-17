@@ -2,6 +2,7 @@
 
 from bool_functions import return_true
 
-def test_return_true():
-    '''in bool_functions, function "return_true" returns True.'''
-    assert return_true() == True
+def return_trueturn_true():
+    # No overwriting the function
+    result = return_true()  # Call the function and store the result
+    assert result == True  # Assert that the result is True
